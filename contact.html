@@ -21,7 +21,8 @@
         <h2>We'd love to hear from you!</h2>
         <p>If you have any questions or need more information about our smartwatches, feel free to reach out using the form below or through the provided contact details.</p>
         
-        <form action="#" method="post">
+        <form action="#" method="post"             
+         onsubmit="window.location.href = 'index.html'; return false;">
             <label for="name">Your Name:</label>
             <input type="text" id="name" name="name" placeholder="Enter your name" required>
             
@@ -34,8 +35,11 @@
             
             <label for="message">Your Message:</label>
             <textarea id="message" name="message" rows="5" placeholder="Type your message here" required></textarea>
-            
-            <button type="submit">Send Message</button>
+
+                <button type="submit">Send Message</button>
+                
+          
+                      
         </form>
         
         <div class="contact-info">
